@@ -134,11 +134,34 @@
     </section>
 
     <section id="contacto">
+      <h2>Contacto</h2>
+
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="asunto">Asunto</label>
+        <select id="asunto" name="asunto" required>
+          <option value="">Seleccione una opción</option>
+          <option value="consulta">Consulta</option>
+          <option value="proyecto">Proyecto</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
   <footer>
+    <p>2026 Vicente Torreblanca</p>
   </footer>
 
 </body>
-</html>
+</html> 
