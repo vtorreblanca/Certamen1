@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #1d1d1d;
+}
+
 .barradenavegacion {
     display: flex;
     justify-content: space-between;
@@ -79,4 +85,117 @@
     border-radius: 50%;
     border: 6px solid rgba(255, 255, 255, 0.6);
     background-color: #d9dee7;
+}
+
+#sobre-mi,
+#habilidades,
+#proyectos,
+#contacto {
+    padding: 50px 80px;
+}
+
+#sobre-mi h2,
+#habilidades h2,
+#proyectos h2,
+#contacto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #183c6b;
+}
+
+#sobre-mi article,
+#habilidades article,
+#proyectos article,
+form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d9dee7;
+    border-radius: 10px;
+}
+
+#sobre-mi p,
+#habilidades p,
+#proyectos p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#habilidades h3 {
+    margin-bottom: 15px;
+    color: #2f69ad;
+}
+
+#habilidades ul,
+#habilidades ol {
+    margin-left: 20px;
+}
+
+#habilidades li {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.proyectos img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.proyectos figcaption {
+    margin-bottom: 10px;
+}
+
+.proyectos blockquote {
+    background-color: #f1f5f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2f69ad;
+}
+
+.proyectos aside {
+    background-color: #eef3f8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #183c6b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #183c6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
